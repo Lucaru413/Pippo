@@ -1,0 +1,4 @@
+steps:
+- name: 'katalonstudio/katalon'  
+  entrypoint: katalonc.sh
+  args: ['-projectPath=Pippo.prj', '-browserType="Chrome"', '-retry=0', '-statusDelay=15', '-testSuitePath="Test Suites/NewTestSuite"', '-apikey=f15204ac-9de7-4238-91bf-ff139fb05b43']
